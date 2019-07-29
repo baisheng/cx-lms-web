@@ -1,0 +1,18 @@
+query navs($id:Int = 5){
+  navs:term_taxonomy(where: {term_id: {_eq: $id}}) {
+    edges: relationships {
+      ...objects
+    }
+  }
+}
+
+fragment objects on term_relationships {
+  node: post {
+    id
+    title
+    metas(where: {key: {_eq: "_menu_item_url"}}) {
+      key
+      value
+    }
+  }
+}

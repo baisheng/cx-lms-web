@@ -1,0 +1,12 @@
+query {
+  users{
+    id
+    identifier
+    displayName
+    passwordHash
+    metas{
+      key
+      value
+    }
+  }
+}

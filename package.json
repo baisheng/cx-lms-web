@@ -1,0 +1,29 @@
+{
+  "name": "lms",
+  "version": "1.0.0",
+  "description": "My majestic Nuxt.js project",
+  "author": "Baisheng",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.0-rc9",
+    "apollo-cache-inmemory": "^1.6.2",
+    "body-scroll-lock": "^2.6.4",
+    "graphql-tag": "^2.10.1",
+    "nuxt": "^2.8.1",
+    "vue-popper": "^0.3.8",
+    "vue-popperjs": "^2.0.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0",
+    "nodemon": "^1.18.9",
+    "postcss-loader": "^3.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
